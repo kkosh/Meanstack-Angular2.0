@@ -1,0 +1,27 @@
+{
+  "name": "ang2mean",
+  "version": "1.0.0",
+  "description": "mean stack with angular2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "keywords": [
+    "mean",
+    "stack"
+  ],
+  "dependencies": {
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  },
+
+  "author": "kkosha",
+  "license": "ISC"
+}
