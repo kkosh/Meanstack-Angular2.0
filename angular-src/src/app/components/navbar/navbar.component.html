@@ -1,0 +1,30 @@
+<div class="navbar navbar-default">
+     <div class="container">
+       <div class="navbar-collapse collapse" id="navbar-main">
+         <ul class="nav navbar-nav navbar-left">
+           <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">
+             <a [routerLink]="['/']">Home</a>
+           </li>
+           <li [routerLinkActive]="['active']">
+             <a [routerLink]="['/profile']">Profile</a>
+           </li>
+           <li [routerLinkActive]="['active']">
+             <a [routerLink]="['/dashboard']">Dashboard</a>
+           </li>
+         </ul>
+
+         <ul class="nav navbar-nav navbar-right">
+           <li [routerLinkActive]="['active']">
+             <a [routerLink]="['/register']">Register</a>
+           </li>
+           <li [routerLinkActive]="['active']">
+             <a [routerLink] = "['/login']" >Login</a>
+           </li>
+           <li [routerLinkActive]="['active']">
+             <a (click)="onLogoutClick()">Logout</a>
+           </li>
+         </ul>
+
+       </div>
+     </div>
+   </div>

@@ -1,0 +1,49 @@
+.pie3d {
+
+ border-left: 10px solid black;
+ border-right: 10px solid black;
+ border-top: 10px solid black;
+ border-bottom: 10px solid black;
+ width:620px;
+ height:420px;
+
+}
+
+
+.column2d {
+
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  width:520px;
+  height:320px;
+  position: absolute;
+  margin-left: 670px;
+  top: 190px;
+
+}
+
+.column2djson {
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  width:820px;
+  height:420px;
+  position: absolute;
+  margin-left:100px;
+  top: 605px;
+}
+
+.column2dxml {
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  width:1020px;
+  height:420px;
+  position: absolute;
+  top: 1080px;
+  margin-left: 40px;
+}

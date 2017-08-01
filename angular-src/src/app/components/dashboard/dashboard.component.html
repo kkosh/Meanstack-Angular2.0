@@ -1,0 +1,43 @@
+
+<h1>
+  hello dashboard
+</h1>
+<div class="pie3d">
+<fusioncharts
+    width="600"
+    height="400"
+    type="pie3d"
+    [dataSource]=dataSource >
+  </fusioncharts>
+</div>
+
+
+<div class="column2d">
+<fusioncharts
+      width="500"
+      height="300"
+      type="column2d"
+      dataFormat="json"
+      [dataSource]="data" >
+    </fusioncharts>
+</div>
+
+<div class="column2djson">
+<fusioncharts
+    dataFormat="jsonurl"
+    dataSource="../../data/data.json"
+    type="column2d"
+    width="800"
+    height="400">
+  </fusioncharts>
+</div>
+
+<div class="column2dxml">
+<fusioncharts
+    dataFormat="xmlurl"
+    dataSource="../../data/data.xml"
+    type="column2d"
+    width="1000"
+    height="400">
+  </fusioncharts>
+</div>
